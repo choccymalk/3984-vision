@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Raspberry_Pi_Compute_Module_4")(type "Legacy")(uri "${KIPRJMOD}/../external/RPi-CM4-Kicad/Raspberry_Pi_Compute_Module_4.lib")(options "")(descr ""))
+  (lib (name "jkiv-abracon")(type "Legacy")(uri "${KIPRJMOD}/../external/jkiv-kicad-library/jkiv-symbols/jkiv-abracon.lib")(options "")(descr ""))
+  (lib (name "cm4-carrier-net-rescue")(type "KiCad")(uri "${KIPRJMOD}/cm4-carrier-net-rescue.kicad_sym")(options "")(descr ""))
+)

@@ -13336,6 +13336,12 @@
 		(uuid "357ab6e0-3baf-4569-bb51-062d13f9c93e")
 	)
 	(junction
+		(at 243.84 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37b3c9e4-71a8-4cf3-a328-5a8a065b54bf")
+	)
+	(junction
 		(at 303.53 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13430,12 +13436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5415390e-7ea7-407a-9ace-d31a888c1859")
-	)
-	(junction
-		(at 240.03 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54ae659b-3d79-499a-a0ce-c816155307fd")
 	)
 	(junction
 		(at 274.32 177.8)
@@ -13576,6 +13576,12 @@
 		(uuid "96a3f31e-d9c1-41e2-b1b2-b05b501d9de0")
 	)
 	(junction
+		(at 245.11 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a414acf5-6258-459d-b06c-03755a7a5160")
+	)
+	(junction
 		(at 303.53 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13658,6 +13664,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce91366a-36a2-44da-a41c-6510edcd5765")
+	)
+	(junction
+		(at 243.84 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce96b9cf-4066-466f-832e-4badde239eb2")
 	)
 	(junction
 		(at 486.41 43.18)
@@ -13778,12 +13790,32 @@
 		(uuid "17761692-a1e0-4816-9aa8-fd5b7f0bb0d4")
 	)
 	(no_connect
+		(at 203.2 45.72)
+		(uuid "1c570f13-df42-4de5-b509-7d690b4c5a8e")
+	)
+	(no_connect
+		(at 203.2 50.8)
+		(uuid "438caa78-af89-4d5a-8e3e-48d5ee2790e4")
+	)
+	(no_connect
+		(at 243.84 40.64)
+		(uuid "79e6f521-5914-4539-a9e0-2706614cd363")
+	)
+	(no_connect
 		(at 95.25 48.26)
 		(uuid "a48606c2-f564-474d-b69e-c35a774db510")
 	)
 	(no_connect
+		(at 243.84 43.18)
+		(uuid "cd028650-2727-475d-94c8-de75a7dedee0")
+	)
+	(no_connect
 		(at 40.64 60.96)
 		(uuid "d2bab0a6-4583-4838-bf7b-fd8d0f8533e4")
+	)
+	(no_connect
+		(at 203.2 48.26)
+		(uuid "ed8df4b3-9cfc-43c8-a672-55a7753db545")
 	)
 	(wire
 		(pts
@@ -13947,6 +13979,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 38.1) (xy 245.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0da545-eb6b-438e-bb9e-ac2a48dbec59")
+	)
+	(wire
+		(pts
+			(xy 245.11 41.91) (xy 246.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d28f0e8-183d-47c1-b6a9-aafece610c93")
+	)
+	(wire
+		(pts
 			(xy 182.88 215.9) (xy 184.15 215.9)
 		)
 		(stroke
@@ -13957,7 +14009,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 208.28) (xy 252.73 208.28)
+			(xy 233.68 208.28) (xy 252.73 208.28)
 		)
 		(stroke
 			(width 0)
@@ -14697,6 +14749,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 45.72) (xy 243.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adb1fc7-a5b9-4400-834f-a3de846398f8")
+	)
+	(wire
+		(pts
 			(xy 212.09 200.66) (xy 212.09 201.93)
 		)
 		(stroke
@@ -14794,6 +14856,16 @@
 			(type default)
 		)
 		(uuid "545be9b7-0dd7-4a3b-b940-85e0bb39afb8")
+	)
+	(wire
+		(pts
+			(xy 243.84 35.56) (xy 243.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54dc6680-1cd0-45af-b8c5-08e68d2d15bc")
 	)
 	(wire
 		(pts
@@ -14904,6 +14976,16 @@
 			(type default)
 		)
 		(uuid "61f5cd7b-8078-41ea-9efa-248eaed9d7f3")
+	)
+	(wire
+		(pts
+			(xy 245.11 38.1) (xy 245.11 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626647be-1bbc-4e0d-a8f5-48dfc9f21cfb")
 	)
 	(wire
 		(pts
@@ -15847,6 +15929,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 55.88) (xy 203.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbccc00-7c27-47b1-9936-a05b88805113")
+	)
+	(wire
+		(pts
 			(xy 43.18 143.51) (xy 39.37 143.51)
 		)
 		(stroke
@@ -16004,6 +16096,16 @@
 			(type default)
 		)
 		(uuid "b8bb8dd7-ef62-45c4-af10-aabbe61d7207")
+	)
+	(wire
+		(pts
+			(xy 243.84 45.72) (xy 243.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b987b1ff-96bc-495a-9289-f08df5f38ca9")
 	)
 	(wire
 		(pts
@@ -16214,16 +16316,6 @@
 			(type default)
 		)
 		(uuid "cc7f6c3d-3600-4c41-b05a-e409e74a3ade")
-	)
-	(wire
-		(pts
-			(xy 233.68 208.28) (xy 240.03 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc895ad3-708c-4390-9d44-d4c8d61d8bd1")
 	)
 	(wire
 		(pts
@@ -16777,6 +16869,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 41.91) (xy 245.11 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f570d7ad-119b-4054-b71d-8ca5479822c6")
+	)
+	(wire
+		(pts
 			(xy 478.79 88.9) (xy 482.6 88.9)
 		)
 		(stroke
@@ -16933,17 +17035,6 @@
 		)
 		(uuid "01644401-8be3-4908-b1c8-947b8f160818")
 	)
-	(label "PCIE_RX_P"
-		(at 243.84 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01a5a27f-17ce-42e1-878a-42003905e6af")
-	)
 	(label "MIPI_CSI_RX_CLK0P"
 		(at 95.25 40.64 180)
 		(fields_autoplaced yes)
@@ -16977,28 +17068,6 @@
 		)
 		(uuid "0d3de8a1-793e-468b-a2f8-dd707ae519d4")
 	)
-	(label "PCIE_TX_P"
-		(at 478.79 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "131f4512-27ff-4a2c-ba8a-ffc1cd2b97e4")
-	)
-	(label "PCIE_TX_N"
-		(at 243.84 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "150a3bbb-b1fe-4053-bb38-0b033494e613")
-	)
 	(label "E0_LEDL"
 		(at 300.99 45.72 0)
 		(fields_autoplaced yes)
@@ -17020,6 +17089,17 @@
 			(justify right bottom)
 		)
 		(uuid "16b7510f-626b-447f-9604-e1641f9de26f")
+	)
+	(label "USB_CORAL-"
+		(at 492.76 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "183df8d2-0c02-4620-a33d-644d33ff16dd")
 	)
 	(label "HDMI_CK+"
 		(at 478.79 137.16 0)
@@ -17043,16 +17123,16 @@
 		)
 		(uuid "1f996aa5-44a4-48d4-81ed-87596540f176")
 	)
-	(label "PCIE_REFCLK_N"
-		(at 478.79 38.1 0)
+	(label "USB_CORAL+"
+		(at 492.76 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "25ef8d89-befb-4f3f-84aa-1ba7ffc5528c")
+		(uuid "2528de54-28d4-4d16-ae52-2fafbc23c615")
 	)
 	(label "E0_TR1+"
 		(at 72.39 132.08 0)
@@ -17131,28 +17211,6 @@
 		)
 		(uuid "364fd68b-75d6-4838-8063-0c49bd3aaff8")
 	)
-	(label "PCIE_RX_N"
-		(at 478.79 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36d143a6-712f-437e-8c91-31dd87c3b58e")
-	)
-	(label "PCIE_REFCLK_N"
-		(at 243.84 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b790942-d4f5-4af0-896e-e0438a35f0ec")
-	)
 	(label "SD_D2"
 		(at 309.88 114.3 180)
 		(fields_autoplaced yes)
@@ -17196,17 +17254,6 @@
 			(justify right bottom)
 		)
 		(uuid "49708af9-59c0-4e2f-acb1-e2697d2d0802")
-	)
-	(label "PCIE_RX_N"
-		(at 243.84 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d4226e0-7214-4970-876a-9ae20b0adbf2")
 	)
 	(label "~{E0_LEDR}"
 		(at 30.48 129.54 180)
@@ -17318,17 +17365,6 @@
 		)
 		(uuid "5ec40011-2db7-4c2f-9e73-0538b61b59d5")
 	)
-	(label "PCIE_REFCLK_P"
-		(at 243.84 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62b52dad-d044-4cd3-8f90-5815c5949143")
-	)
 	(label "HDMI_D0+"
 		(at 478.79 129.54 0)
 		(fields_autoplaced yes)
@@ -17406,17 +17442,6 @@
 		)
 		(uuid "6f20d1da-449b-4c6a-88ac-5b8d6968c60a")
 	)
-	(label "PCIE_REFCLK_P"
-		(at 478.79 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70270cfb-71ba-42e9-987b-07db3545ecf2")
-	)
 	(label "E0_TR0-"
 		(at 72.39 129.54 0)
 		(fields_autoplaced yes)
@@ -17438,6 +17463,17 @@
 			(justify left bottom)
 		)
 		(uuid "71e4cf89-1357-4ad8-94a9-901e54cbcc1a")
+	)
+	(label "USB_CORAL+"
+		(at 243.84 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72203305-bcc5-4f16-a384-41cd56b68ca7")
 	)
 	(label "MIPI_CSI_RX0_D0N"
 		(at 95.25 22.86 180)
@@ -17515,6 +17551,17 @@
 			(justify left bottom)
 		)
 		(uuid "95f2aa82-8917-4126-8fef-00a7e099e422")
+	)
+	(label "USB_CORAL-"
+		(at 243.84 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "980c54a9-3413-4928-9a7f-052bb4b2323d")
 	)
 	(label "HDMI_D0-"
 		(at 478.79 132.08 0)
@@ -17604,17 +17651,6 @@
 		)
 		(uuid "aba958f4-f495-4e87-bd9d-ab164ddf20e2")
 	)
-	(label "PCIE_TX_P"
-		(at 243.84 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac158093-2171-444e-a0de-7dcadb78e169")
-	)
 	(label "E0_TR1-"
 		(at 72.39 134.62 0)
 		(fields_autoplaced yes)
@@ -17626,17 +17662,6 @@
 		)
 		(uuid "acb2bda0-b3fa-4cbb-ac22-f030db70b6de")
 	)
-	(label "PCIE_TX_N"
-		(at 478.79 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae1513fb-a80e-46ff-bf2d-1990ef9887dc")
-	)
 	(label "PI_GLOBAL_EN"
 		(at 149.86 140.97 180)
 		(fields_autoplaced yes)
@@ -17647,17 +17672,6 @@
 			(justify right bottom)
 		)
 		(uuid "aed57db0-286a-48a0-a15f-eec37862570b")
-	)
-	(label "PCIE_RX_P"
-		(at 478.79 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1db3634-1d6b-4550-87c3-1b0c5688d813")
 	)
 	(label "PI_nRPI_BOOT"
 		(at 309.88 144.78 180)
@@ -25463,75 +25477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 240.03 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "465a7414-fcfd-4376-8e35-11d7bac072a2")
-		(property "Reference" "C16"
-			(at 240.792 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 239.522 206.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 240.9952 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "849cb2dc-5743-46b9-96d6-250e70273e8c")
-		)
-		(pin "2"
-			(uuid "e3c2e649-ebfd-43df-8317-0507d2391bdf")
-		)
-		(instances
-			(project "cm4-carrier-net"
-				(path "/a58a5c23-cf42-4abb-bf4c-19a657300252"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 245.11 185.42 0)
 		(unit 1)
@@ -26601,6 +26546,71 @@
 			(project "cm4-carrier-net"
 				(path "/a58a5c23-cf42-4abb-bf4c-19a657300252"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 200.66 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "879a8759-39c2-4f81-b8f5-c33e7eb68a21")
+		(property "Reference" "#PWR045"
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b444954-0898-49c3-aab3-be21135f1d1b")
+		)
+		(instances
+			(project "cm4-carrier-net"
+				(path "/a58a5c23-cf42-4abb-bf4c-19a657300252"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -28426,72 +28436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c87c82fa-a859-4019-8ab5-f97a5fd07d75")
-		(property "Reference" "#PWR045"
-			(at 240.03 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.157 220.2942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db42eac6-24c8-4fd0-986e-abb8fe4fc293")
-		)
-		(instances
-			(project "cm4-carrier-net"
-				(path "/a58a5c23-cf42-4abb-bf4c-19a657300252"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 179.07 205.74 0)
 		(unit 1)
@@ -29266,6 +29210,74 @@
 			(project "cm4-carrier-net"
 				(path "/a58a5c23-cf42-4abb-bf4c-19a657300252"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 246.38 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2f35149-6481-42db-a0ec-06721afe2314")
+		(property "Reference" "#PWR048"
+			(at 252.73 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20261e59-44e9-47ee-9824-63d0bbe9fa3d")
+		)
+		(instances
+			(project "cm4-carrier-net"
+				(path "/a58a5c23-cf42-4abb-bf4c-19a657300252"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
